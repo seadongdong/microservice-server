@@ -27,6 +27,7 @@
 	<modules>
 		<module>server-eureka</module>
 		<module>server-monitor</module>
+		<module>server-dashboard</module>
 	</modules>
 
 
