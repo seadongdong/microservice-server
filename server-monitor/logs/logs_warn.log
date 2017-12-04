@@ -1,5 +1,0 @@
-2017-12-04 13:06:57.108 |-WARN  [main] com.netflix.config.sources.URLConfigurationSource [121] -| No URLs will be polled as dynamic configuration sources.
-2017-12-04 13:06:57.118 |-WARN  [main] com.netflix.config.sources.URLConfigurationSource [121] -| No URLs will be polled as dynamic configuration sources.
-2017-12-04 13:06:57.801 |-WARN  [main] org.springframework.web.servlet.resource.ResourceHttpRequestHandler [252] -| Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
-2017-12-04 13:06:57.801 |-WARN  [main] org.springframework.web.servlet.resource.ResourceHttpRequestHandler [252] -| Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
-2017-12-04 13:06:59.524 |-WARN  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [849] -| Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations

@@ -1,4 +1,0 @@
-2017-12-04 13:04:20.284 |-WARN  [main] org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [147] -| No spring.application.name found, defaulting to 'application'
-2017-12-04 13:04:20.291 |-WARN  [main] com.netflix.config.sources.URLConfigurationSource [121] -| No URLs will be polled as dynamic configuration sources.
-2017-12-04 13:04:20.309 |-WARN  [main] com.netflix.config.sources.URLConfigurationSource [121] -| No URLs will be polled as dynamic configuration sources.
-2017-12-04 13:04:22.373 |-WARN  [main] com.netflix.eureka.cluster.PeerEurekaNodes [156] -| The replica size seems to be empty. Check the route 53 DNS Registry
