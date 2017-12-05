@@ -27,13 +27,13 @@
 	<name>microservice-server</name>
 	<url>http://maven.apache.org</url>
 
-	<modules>
+	<!-- <modules>
 		<module>server-eureka</module>
 		<module>server-monitor</module>
 		<module>server-dashboard</module>
 		<module>server-task</module>
 		<module>server-config</module>
-	</modules>
+	</modules> -->
 
 
 	<dependencyManagement>
