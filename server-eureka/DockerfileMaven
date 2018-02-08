@@ -1,0 +1,13 @@
+FROM 172.16.199.203/yc_ops/centos-maven-base
+
+
+ADD . /app
+
+WORKDIR /app/
+
+RUN ehco $(ls /app)_
+
+RUN mvn clean package -Dmaven.test.skip=true
+
+CMD["mvn"]
+
