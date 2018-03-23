@@ -21,7 +21,7 @@
 
 	<groupId>com.yonyou.cloud</groupId>
 	<artifactId>microservice-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-RELEASE</version>
 	<packaging>pom</packaging>
 
 	<name>microservice-server</name>

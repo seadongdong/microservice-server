@@ -5,7 +5,7 @@
 
 	<groupId>com.yonyou.cloud</groupId>
 	<artifactId>server-dashboard</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>server-dashboard</name>
@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>com.yonyou.cloud</groupId>
 		<artifactId>microservice-server</artifactId>
-		<version>0.0.1.RELEASE</version>
+		<version>0.0.1-RELEASE</version>
 	</parent>
 
 	<properties>

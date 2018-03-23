@@ -1,4 +1,4 @@
-FROM
+FROM 172.16.199.203/yc_ops/centos-jdk-base
 
 LABEL description = "this is eureka server"
 

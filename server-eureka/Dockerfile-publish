@@ -1,0 +1,12 @@
+FROM 172.16.199.203/daocloud/java:latest
+
+
+
+COPY /project/target/server-eureka.jar /usr/src/myapp/server-eureka.jar
+
+WORKDIR /usr/src/myapp/
+
+EXPOSE 8761
+
+ENTRYPOINT java -jar server-eureka.jar
+

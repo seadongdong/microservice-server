@@ -1,0 +1,7 @@
+FROM 172.16.199.203/gtmc/maven:master-93464a9
+
+WORKDIR /project
+
+ADD . /project
+
+RUN  mvn clean package -Dmaven.test.skip=true

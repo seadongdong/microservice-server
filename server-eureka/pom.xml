@@ -4,17 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>server-eureka</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>server-eureka</name>
 	<description></description>
 
-	<parent>
-		<groupId>com.yonyou.cloud</groupId>
-		<artifactId>microservice-server</artifactId>
-		<version>0.0.1.SNAPSHOT</version>
-	</parent>
+    <parent>
+        <groupId>com.yonyou.cloud</groupId>
+        <artifactId>microservice-server</artifactId>
+        <version>0.0.1-RELEASE</version>
+    </parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,6 +36,7 @@
 	</dependencies>
 
 	<build>
+        <finalName>server-eureka</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -50,6 +51,15 @@
 			</plugin>
 		</plugins>
 	</build>
+
+    <repositories>
+        <repository>
+            <id>nexus-daocloud</id>
+            <name>Nexus daocloud</name>
+            <url>http://dce.carapptest.gtmc.com.cn:32081/repository/maven-public/</url>
+        </repository>
+
+    </repositories>
 
 
 </project>

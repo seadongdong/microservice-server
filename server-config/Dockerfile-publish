@@ -1,0 +1,10 @@
+FROM 172.16.199.203/daocloud/java:latest
+
+
+COPY /project/target/server-config.jar /usr/src/myapp/server-config.jar
+
+WORKDIR /usr/src/myapp/
+
+EXPOSE 8888
+ENTRYPOINT java -jar server-config.jar
+
