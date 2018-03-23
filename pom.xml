@@ -31,6 +31,7 @@
 		<module>server-eureka</module>
 		<module>server-monitor</module>
 		<module>server-dashboard</module>
+		<module>server-zipkin</module>
 		<module>server-task</module>
 		<module>server-config</module>
 	</modules>
